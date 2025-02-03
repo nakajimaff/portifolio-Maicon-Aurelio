@@ -6,12 +6,68 @@
     body {
     background-color: #0c0c0c;
 }
+
+.x1 {
+    width: 50%;
+    height: 5%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: red;
+    transform-origin: 50% 50%;
+    transform: rotate(45deg);
+    border-radius: 10px;
+}
+
+.x2 {
+    width: 50%;
+    height: 5%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: red;
+    transform-origin: 50% 50%;
+    transform: rotate(135deg);
+    border-radius: 10px;
+}
+
+.contorno {
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 50%;
+    height: 75%;
+}
+
+.meio {
+    background-color: #0c0c0c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 40%;
+    height: 75%;
+}
+
+.erro {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 </style>
 
 </head>
 <body>
-
-<div class="barra"></div>
-
+    <div class="contorno"></div>
+    <div class="meio"></div>
+    <div class="x1"></div>
+    <div class="x2"></div>
+    <div class="erro"><h1>ERRO</h1></div>
 </body>
 </html>
